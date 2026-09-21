@@ -7,19 +7,28 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\images\.gitkeep" />
+    <Content Remove="wwwroot\images\Admin\.gitkeep" />
+    <Content Remove="wwwroot\images\Owner\.gitkeep" />
+    <Content Remove="wwwroot\images\Student\.gitkeep" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Controllers\Admin\" />
-    <Folder Include="Controllers\Student\" />
-    <Folder Include="Controllers\Owner\" />
-    <Folder Include="Data\Admin\" />
-    <Folder Include="Data\Owner\" />
-    <Folder Include="Data\Student\" />
-    <Folder Include="Models\Admin\" />
-    <Folder Include="Models\Owner\" />
-    <Folder Include="Models\Student\" />
     <Folder Include="Views\Admin\Shared\" />
     <Folder Include="Views\Owner\Shared\" />
     <Folder Include="Views\Student\Shared\" />
-    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\.gitkeep" />
+    <None Include="wwwroot\images\Admin\.gitkeep" />
+    <None Include="wwwroot\images\Owner\.gitkeep" />
+    <None Include="wwwroot\images\Student\.gitkeep" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.1.0" />
   </ItemGroup>
 
 </Project>
