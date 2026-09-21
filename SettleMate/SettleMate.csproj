@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\Admin\" />
+    <Folder Include="Controllers\Student\" />
+    <Folder Include="Controllers\Owner\" />
+    <Folder Include="Data\Admin\" />
+    <Folder Include="Data\Owner\" />
+    <Folder Include="Data\Student\" />
+    <Folder Include="Models\Admin\" />
+    <Folder Include="Models\Owner\" />
+    <Folder Include="Models\Student\" />
+    <Folder Include="Views\Admin\Shared\" />
+    <Folder Include="Views\Owner\Shared\" />
+    <Folder Include="Views\Student\Shared\" />
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+</Project>
