@@ -1,0 +1,24 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800&display=swap');
+
+:root {
+
+    --font-brand: 'Comfortaa', sans-serif;
+    --font-ui: 'Nunito', sans-serif;
+
+    --primary-color: #085E57;
+    --primary-hover: #064A45;
+    --primary-light: #0B756C;
+    --secondary-color: #123B66;
+    --secondary-hover: #0B2F52;
+    --secondary-light: #1A496F;
+
+    --background-color: #0B1716;
+    --surface-color: #10211F;
+    --surface-secondary: #162B29;
+
+    --border-color: #28413E;
+
+    --text-primary: #F1F5F4;
+    --text-secondary: #B7C8C5;
+    --text-muted: #819592;
+}
